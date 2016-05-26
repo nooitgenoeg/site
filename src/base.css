@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
-
 /* Basscss Modules */
 @import 'basscss-base-reset';
 /* @import 'basscss-base-forms'; */
@@ -12,6 +10,7 @@
 @import 'flex-object';
 @import 'basscss-utility-typography';
 @import 'basscss-utility-white-space';
+@import 'basscss-hide';
 
 @import 'basscss-color-base';
 /* Extend base styles for form defaults */
@@ -30,9 +29,8 @@
   font-size: 0.7em;
 }
 
-
 :root {
-  --font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family: 'proxima-nova-soft', 'Helvetica Neue', Helvetica, sans-serif;
   --line-height: 1.5;
   --heading-font-family: var(--font-family);
   --heading-font-weight: bold;

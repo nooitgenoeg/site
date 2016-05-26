@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
-
 /* Basscss Modules */
 body { margin: 0 }
 img { max-width: 100% }
@@ -74,13 +72,13 @@ button::before,
 /* Basscss Defaults */
 
 body {
-  font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'proxima-nova-soft', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'proxima-nova-soft', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.25;
   margin-top: 1em;
@@ -519,6 +517,33 @@ h6 { font-size: 12px; font-size: .75rem }
 .p4  { padding: 64px; padding: 4rem }
 .py4 { padding-top: 64px; padding-top: 4rem; padding-bottom: 64px; padding-bottom: 4rem }
 .px4 { padding-left: 64px; padding-left: 4rem; padding-right: 64px; padding-right: 4rem }
+/* Basscss Hide */
+
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (max-width: 40em) {
+  .xs-hide { display: none !important }
+}
+
+@media (min-width: 40em) and (max-width: 52em) {
+  .sm-hide { display: none !important }
+}
+
+@media (min-width: 52em) and (max-width: 64em) {
+  .md-hide { display: none !important }
+}
+
+@media (min-width: 64em) {
+  .lg-hide { display: none !important }
+}
+
+.display-none { display: none !important }
 
 /* Basscss Color Base */
 
@@ -670,7 +695,6 @@ hr {
 .font-smaller{
   font-size: 0.7em;
 }
-
 
 :root {
 

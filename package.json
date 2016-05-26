@@ -19,6 +19,7 @@
     "basscss-colors": "^1.0.6",
     "basscss-defaults": "^1.0.1",
     "basscss-grid": "latest",
+    "basscss-hide": "^1.0.1",
     "basscss-utility-layout": "latest",
     "basscss-utility-typography": "latest",
     "basscss-utility-white-space": "latest",
