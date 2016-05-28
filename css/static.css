@@ -706,3 +706,11 @@ hr {
   */
 
 }
+
+@media (max-width: 50em) {
+  .logo{
+    display: block;
+    max-width:11em;
+    margin: 0 auto;
+  }
+}
