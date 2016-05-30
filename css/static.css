@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
 /* Basscss Modules */
 body { margin: 0 }
 img { max-width: 100% }
@@ -705,6 +707,15 @@ hr {
   --space-4: 4rem;
   */
 
+}
+
+.font-mono{
+  font-family: Inconsolata, 'Source Code Pro', Consolas, monospace;
+  font-weight: 700;
+}
+.font-mono-regular{
+  font-family: Inconsolata, 'Source Code Pro', Consolas, monospace;
+  font-weight: 400;
 }
 
 @media (max-width: 50em) {

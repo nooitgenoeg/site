@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
 /* Basscss Modules */
 @import 'basscss-base-reset';
 /* @import 'basscss-base-forms'; */
@@ -31,6 +33,7 @@
 
 :root {
   --font-family: 'proxima-nova-soft', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family-monospace: Inconsolata, 'Source Code Pro', Consolas, monospace;
   --line-height: 1.5;
   --heading-font-family: var(--font-family);
   --heading-font-weight: bold;
@@ -68,6 +71,15 @@
   --space-4: 4rem;
   */
 
+}
+
+.font-mono{
+  font-family: var(--font-family-monospace);
+  font-weight: 700;
+}
+.font-mono-regular{
+  font-family: var(--font-family-monospace);
+  font-weight: 400;
 }
 
 @media (max-width: 50em) {
