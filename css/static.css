@@ -718,10 +718,43 @@ hr {
   font-weight: 400;
 }
 
+.logo{
+  display: block;
+  max-width:11em;
+  margin: 0 auto;
+}
+
+.image-list{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.image{
+  display: block;
+  background: #eee;
+  width: 50%;
+  height:10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 50em) {
-  .logo{
-    display: block;
-    max-width:11em;
-    margin: 0 auto;
+  .image:nth-child(5n) {
+    display:none;
+  }
+}
+
+@media (min-width: 50em) {
+  .image{
+    width:20%;
+    height:7em;
+  }
+}
+
+@media (min-width: 70em) {
+  .image{
+    height:9em;
   }
 }
